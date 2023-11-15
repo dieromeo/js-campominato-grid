@@ -34,6 +34,10 @@ header {
     padding: 1.5625rem;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 /*
 MAIN
 */
@@ -53,13 +57,31 @@ main {
     align-content: flex-start;
 }
 
-.cell {
+.cell-10 {
     background-color: aqua;
     border: 1px solid black;
     width: calc(100% / 10);
     height: calc(100% / 10);
 }
 
+.cell-9 {
+    background-color: aqua;
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.cell-7 {
+    background-color: aqua;
+    border: 1px solid black;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
 .yellow {
     background-color: yellow;
+}
+
+.inactive {
+    display: none;
 }
