@@ -59,3 +59,7 @@ main {
     width: calc(100% / 10);
     height: calc(100% / 10);
 }
+
+.yellow {
+    background-color: yellow;
+}
