@@ -13,3 +13,7 @@ Mi crea un elemento html di tipo `tag` e gli aggiunge la classe e il contenuto d
 
  Aggiungo la funzione al click delle celle della board.
 
+ ### BONUS
+
+ Aggiungo un selettore di difficoltà, salvo il suo valore in una variabile e tramite una funzione creo le celle corrispondenti al livello di difficoltà selezionato, richiamando la funzione precedente per creare celle.
+
