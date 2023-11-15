@@ -14,4 +14,48 @@ COMMON
 
 body {
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+header,
+footer {
+    background-color: blueviolet;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5625rem;
+}
+
+/*
+MAIN
+*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: 31.25rem;
+    height: 31.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    align-content: flex-start;
+}
+
+.cell {
+    background-color: aqua;
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
 }
